@@ -59,20 +59,13 @@ function isCharAVowel(char){
 if (char === 'a' ||char === 'e' || char ==='i' || char === 'o' || char === 'u'){
 
 return 'true'
-
 }
 
-else {
-    return 'flase'
+else {   
+     return 'false'
 }
 
-
 }
-
-
-
-
-
 
 console.log('Exercise 3 Result:', isCharAVowel('a'));
 
@@ -92,20 +85,11 @@ should return 'johnsmith@example.com'.
 Complete the exercise in the space below:
 */
 
-
 const generateEmail = (name, domain) => {
      return `${name}@${domain}`
 }
      
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "aol.com"));
-
-   
-
-
-
-
-
-
 
 
 
@@ -126,10 +110,7 @@ const greetUser = (name,timeOfDay) => {
 
 }
 
-
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
-
-
 
 
 
@@ -166,13 +147,6 @@ console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 
 
-
-
-
-
-
-
-
 /*
 Exercise 7: calculateTip()
 
@@ -185,36 +159,15 @@ Example: calculateTip(50, 20) should return 10.
 Complete the exercise in the space below:
 */
 
-// const calculateTip = (billAmount, tipPercent)
+function calculateTip(billAmount, tipPercent){
+    return (billAmount * tipPercent/100)
+}
 
 
 
 
 
-// console.log('Exercise 7 Result:', calculateTip(50, 20));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log('Exercise 7 Result:', calculateTip(50, 20));
 
 
 
